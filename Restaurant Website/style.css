@@ -1,0 +1,182 @@
+ body,h2{ 
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first{
+    background-image: url(/Project/DALL·E\ 2023-11-24\ 12.26.06\ -\ fried\ chicken\ with\ red\ hot\ fire\ is\ a\ add\ feel.png);
+    /* background:linear-gradient(to right, black, red); */
+    background-size: cover;
+    background-position: center;
+    height: 100vmin;
+    color: aliceblue;
+}
+.second{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    /* border: 2px solid white; */
+    width: fit-content;
+    margin-left: 50px;
+    flex: 3;
+}
+.navbar{
+    /* border: 2px solid white;  */
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    background-color:black;
+    flex: 1;
+    min-width: 105px;
+    border: 2px solid rgb(216, 168, 12);
+    border-radius: 10px;
+    padding: 8px;
+    width: 70px;
+    height: 35px;
+}
+.navbar a:hover{
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: red;
+    color:yellow;
+}
+.navbar i{
+    margin-right: .5em;
+}
+.maincontent{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    padding: 32px;
+}
+.slogan1{
+    color:rgb(133, 179, 43);
+    background-image: url(/Project/DALL·E\ 2023-11-24\ 12.26.06\ -\ fried\ chicken\ with\ red\ hot\ fire\ is\ a\ add\ feel.png);
+    /* background-color: #F7C561;  */
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bolder;
+    width: max-content;
+    margin-top: 200px;
+    padding: 4px;
+}
+.slogan2{
+    color: orangered;
+    background-image: url(/Project/DALL·E\ 2023-11-24\ 12.26.06\ -\ fried\ chicken\ with\ red\ hot\ fire\ is\ a\ add\ feel.png);
+    /* background-color:#F7C561; */
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bolder;
+    width: max-content;
+    margin-top: 30px;
+    padding: 4px;
+}
+
+.contactus{
+    color:rosybrown;
+    background-image: url(/Project/DALL·E\ 2023-11-24\ 12.26.06\ -\ fried\ chicken\ with\ red\ hot\ fire\ is\ a\ add\ feel.png);
+    /* background-color: #F7C561; */
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    width: max-content;
+    margin-top: 90px;
+    padding: 4px;
+}
+
+
+button{
+    width: 120px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:20px;
+    color: white;
+    background-image: url(/Project/DALL·E\ 2023-11-24\ 12.26.06\ -\ fried\ chicken\ with\ red\ hot\ fire\ is\ a\ add\ feel.png);
+    /* background-color: #53BF9D; */
+    
+}
+
+button:hover{
+    background-color: red;
+    color: yellow;
+}
+
+.menucard{
+    background:linear-gradient(to right, black, red);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+ .menu{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px,1fr));
+    background:linear-gradient(to right, black, red);
+    color: white;
+}
+th{
+    color: yellow;
+}
+ table{ 
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .6em;
+}
+.combodish{
+    width: 100%;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menu :nth-child(2){
+    justify-self: right;
+}
+.location{
+    background:linear-gradient(to right, black, red);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.Add{
+    background:linear-gradient(to right, black, red);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Add h2{
+    color: yellow;
+    margin-bottom: .6em;
+}
+.Add div{
+    flex: 1;
+    padding: 1em;
+    min-width: 200px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: .2em 1em;
+}
